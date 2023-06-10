@@ -96,8 +96,8 @@ if __name__ == "__main__":
     timer_thread.start()
 
     fig, ax = plt.subplots()
-    x=0
-    y=0
+    x=None
+    y=None
     data = deque([(x, y)], maxlen=20)
     line, = plt.plot(*zip(*data), c='black')
     plt.ylabel("Open Price")
