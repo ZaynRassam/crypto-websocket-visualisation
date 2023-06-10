@@ -15,3 +15,5 @@ and plot this on a graph.
 ✅ Goal 2: Create a data visualisation that updates as the websocket is 
 listening to the feed. 
 
+![ezgif com-video-to-gif (3)](https://github.com/ZaynRassam/crypto-websocket-visualisation/assets/112281021/ed7e880e-ca38-4355-8139-c0326a1eac3c)
+
