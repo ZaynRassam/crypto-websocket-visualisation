@@ -4,25 +4,11 @@ import datetime
 import threading
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# class DataHolder:
-#     def __init__(self, data):
-#         self.df = None
-#         self.data = data
-#
-#     def update_dataframe(self, new_data):
-#         # Update the DataFrame with new data
-#         # ...
-#
-#     def get_dataframe(self):
-#         return pd.DataFrame(data)
-
-def append_df(df: pd.DataFrame, data: dict) -> pd.DataFrame:
-    df.append(df, data)
+import asyncio
+import time
 
 def create_df(data) -> pd.DataFrame:
-    df = pd.DataFrame(data)
-    return df
+    return pd.DataFrame(data)
 
 def on_message(ws, message):
     # Define how to handle incoming messages
@@ -33,7 +19,7 @@ def on_message(ws, message):
         timestamp = message['E'] / 1000
         timestamp = datetime.datetime.utcfromtimestamp(timestamp)
         print(f"Time: {timestamp}, Open Price: {message['o']}")
-        data.append({"Timestamp": timestamp, "Open Price": message['o']})
+        data.append({"Timestamp": timestamp, "Open Price": float(message['o'])})
 
 def on_error(ws, error):
     # Define how to handle WebSocket errors
@@ -42,8 +28,8 @@ def on_error(ws, error):
 def on_close(ws, close_code, close_reason):
     # Define how to handle WebSocket connection closure
     print("WebSocket connection closed")
-    df = pd.DataFrame(data)
-    print(df)
+    global df
+    df = create_df(data)
 
 def on_open(ws):
     # Define actions to be taken when the WebSocket connection is opened
@@ -60,9 +46,14 @@ def on_open(ws):
 
 def close_websocket():
     if ws:
+        print("Closing connection")
         ws.close()
+        global websocket_running
+        websocket_running = False
+    else:
+        print("Could not close connection")
 
-def run_websocket():
+def open_websocket():
     # Define the WebSocket endpoint URL
     websocket_url = "wss://stream.binance.com:9443/ws"
 
@@ -74,18 +65,33 @@ def run_websocket():
                                 on_close=on_close,
                                 on_open=on_open)
     # Run the WebSocket connection
+    global websocket_running
+    websocket_running = True
     ws.run_forever()
 
 
 if __name__ == "__main__":
     global data
+    global df
+    global websocket_running
+    websocket_running = True
     data = []
     # data_holder = DataHolder()
 
+    duration = 300
     # Start the WebSocket connection
-    websocket_thread = threading.Thread(target=run_websocket)
+    websocket_thread = threading.Thread(target=open_websocket)
     websocket_thread.start()
 
     # Set the timer to close the WebSocket after 5 seconds
-    timer_thread = threading.Timer(4, close_websocket)
+    timer_thread = threading.Timer(duration, close_websocket)
     timer_thread.start()
+
+    while websocket_running:
+        pass
+
+    print(df)
+    df.plot(x="Timestamp", y="Open Price")
+    plt.show(block=True)
+    print("Finished")
+

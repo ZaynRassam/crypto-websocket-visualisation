@@ -16,8 +16,8 @@ async def attach_2_bitmex(instrument: str) -> None:
             try:
                 result = await websocket.recv()
                 data = json.loads(result)
-                # print(data)
-                extract_load_price(data)
+                print(data)
+                # extract_load_price(data)
                 print("-----------------")
             except ConnectionClosed:
                 break
