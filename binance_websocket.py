@@ -3,9 +3,10 @@ import json
 import datetime
 import threading
 import pandas as pd
+from collections import deque
 import matplotlib.pyplot as plt
-import asyncio
-import time
+import matplotlib.animation as animation
+import numpy as np
 
 def create_df(data) -> pd.DataFrame:
     return pd.DataFrame(data)
@@ -17,9 +18,9 @@ def on_message(ws, message):
     # You can process the received data here based on your requirements
     if "E" in message and "o" in message:
         timestamp = message['E'] / 1000
-        timestamp = datetime.datetime.utcfromtimestamp(timestamp)
+        # timestamp = datetime.datetime.utcfromtimestamp(timestamp)
         print(f"Time: {timestamp}, Open Price: {message['o']}")
-        data.append({"Timestamp": timestamp, "Open Price": float(message['o'])})
+        data.append((timestamp, float(message['o'])))
 
 def on_error(ws, error):
     # Define how to handle WebSocket errors
@@ -70,6 +71,13 @@ def open_websocket():
     ws.run_forever()
 
 
+def animate(i):
+    ax.relim()
+    ax.autoscale_view()
+    line.set_data(*zip(*data))
+
+
+
 if __name__ == "__main__":
     global data
     global df
@@ -87,11 +95,20 @@ if __name__ == "__main__":
     timer_thread = threading.Timer(duration, close_websocket)
     timer_thread.start()
 
+    fig, ax = plt.subplots()
+    x=0
+    y=0
+    data = deque([(x, y)], maxlen=20)
+    line, = plt.plot(*zip(*data), c='black')
+    plt.ylabel("Open Price")
+    plt.xlabel("Time since epoch")
+
+    ani = animation.FuncAnimation(fig, animate, interval=100)
+    plt.show()
+
     while websocket_running:
         pass
 
-    print(df)
-    df.plot(x="Timestamp", y="Open Price")
-    plt.show(block=True)
+
     print("Finished")
 
