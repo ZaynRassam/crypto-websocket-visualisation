@@ -1,3 +1,4 @@
+from confluent_kafka import Producer
 import websocket
 import json
 import datetime
@@ -6,10 +7,35 @@ import pandas as pd
 from collections import deque
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+import time
+import logging
 import numpy as np
+
+
+logging.basicConfig(format='%(asctime)s %(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S',
+                    filename='producer.log',
+                    filemode='w')
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+p=Producer({'bootstrap.servers':'localhost:9092'})
+print('Kafka Producer has been initiated...')
+
 
 def create_df(data) -> pd.DataFrame:
     return pd.DataFrame(data)
+
+
+def receipt(err,msg):
+    if err is not None:
+        print('Error: {}'.format(err))
+    else:
+        message = 'Produced message on topic {} with value of {}\n'.format(msg.topic(), msg.value().decode('utf-8'))
+        logger.info(message)
+        print(message)
+
 
 def on_message(ws, message):
     # Define how to handle incoming messages
@@ -18,10 +44,17 @@ def on_message(ws, message):
     # You can process the received data here based on your requirements
     if "E" in message and "o" in message:
         timestamp = message['E'] / 1000
-        # timestamp = datetime.datetime.utcfromtimestamp(timestamp)
+        timestamp = datetime.datetime.utcfromtimestamp(timestamp)
         print(f"Time: {timestamp}, Open Price: {message['o']}")
-        data.append((timestamp, float(message['o'])))
-
+        data = {
+            'Time': str(timestamp),
+            'Open Price': message['o']
+        }
+        m=json.dumps(data)
+        p.poll(1)
+        p.produce('crypto-open-price1', m.encode('utf-8'),callback=receipt)
+        p.flush()
+        time.sleep(3)
 def on_error(ws, error):
     # Define how to handle WebSocket errors
     print("WebSocket error:", error)
@@ -71,10 +104,7 @@ def open_websocket():
     ws.run_forever()
 
 
-def animate(i):
-    ax.relim()
-    ax.autoscale_view()
-    line.set_data(*zip(*data))
+
 
 
 
@@ -84,7 +114,7 @@ if __name__ == "__main__":
     global websocket_running
     websocket_running = True
     data = []
-    # data_holder = DataHolder()
+
 
     duration = 300
     # Start the WebSocket connection
@@ -95,20 +125,21 @@ if __name__ == "__main__":
     timer_thread = threading.Timer(duration, close_websocket)
     timer_thread.start()
 
-    fig, ax = plt.subplots()
-    x=None
-    y=None
-    data = deque([(x, y)], maxlen=20)
-    line, = plt.plot(*zip(*data), c='black')
-    plt.ylabel("Open Price")
-    plt.xlabel("Time since epoch")
 
-    ani = animation.FuncAnimation(fig, animate, interval=100)
-    plt.show()
+
+    # fig, ax = plt.subplots()
+    # x=None
+    # y=None
+    # data = deque([(x, y)], maxlen=20)
+    # line, = plt.plot(*zip(*data), c='black')
+    # plt.ylabel("Open Price")
+    # plt.xlabel("Time since epoch")
+    #
+    # ani = animation.FuncAnimation(fig, animate, interval=100)
+    # plt.show()
 
     while websocket_running:
         pass
-
 
     print("Finished")
 
