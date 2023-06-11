@@ -22,13 +22,12 @@ listening to the feed.
 could send the messages to a Kafka topic (producer), another script could then listen to the topic and use
 the data (consumer)
 
-![ezgif.com-video-to-gif (4).gif](..%2F..%2FDownloads%2Fezgif.com-video-to-gif%20%284%29.gif)
+![ezgif com-video-to-gif (4)](https://github.com/ZaynRassam/crypto-websocket-visualisation/assets/112281021/2c1c7074-2748-4809-9c1f-e70096615388)
 
 
 Below is a video where the graph only plots the last 10 values (similar to Goal 2's graph). The x-axis still
 can't handle this many values.
 
-![ezgif.com-video-to-gif (5).gif](..%2F..%2FDownloads%2Fezgif.com-video-to-gif%20%285%29.gif)
-
+![ezgif com-video-to-gif (5)](https://github.com/ZaynRassam/crypto-websocket-visualisation/assets/112281021/4ad65c54-51be-4066-a770-55e6517f0246)
 
 Goal 4: We're redrawing the plot every time you matplotlib. Find a better way of drawing the graph.
