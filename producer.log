@@ -1,147 +1,151 @@
-2023-06-11 10:06:40 Websocket connected
-2023-06-11 10:06:43 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:40.822000", "Open Price": "25657.61000000"}
+2023-06-13 08:56:40 Websocket connected
+2023-06-13 08:56:41 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:40.401000", "Open Price": "25774.02000000"}
 
-2023-06-11 10:06:47 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:41.909000", "Open Price": "25657.60000000"}
+2023-06-13 08:56:45 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:41.647000", "Open Price": "25775.42000000"}
 
-2023-06-11 10:06:51 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:43.169000", "Open Price": "25657.61000000"}
+2023-06-13 08:56:49 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:42.604000", "Open Price": "25777.84000000"}
 
-2023-06-11 10:06:55 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:43.986000", "Open Price": "25657.61000000"}
+2023-06-13 08:56:53 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:43.286000", "Open Price": "25777.84000000"}
 
-2023-06-11 10:06:59 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:45.232000", "Open Price": "25657.61000000"}
+2023-06-13 08:56:57 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:44.542000", "Open Price": "25777.83000000"}
 
-2023-06-11 10:07:03 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:46.225000", "Open Price": "25657.60000000"}
+2023-06-13 08:57:01 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:45.620000", "Open Price": "25777.83000000"}
 
-2023-06-11 10:07:07 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:47.125000", "Open Price": "25657.61000000"}
+2023-06-13 08:57:05 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:45.954000", "Open Price": "25777.84000000"}
 
-2023-06-11 10:07:11 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:48.024000", "Open Price": "25657.60000000"}
+2023-06-13 08:57:09 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:47.623000", "Open Price": "25777.83000000"}
 
-2023-06-11 10:07:15 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:48.759000", "Open Price": "25657.60000000"}
+2023-06-13 08:57:13 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:48.007000", "Open Price": "25778.58000000"}
 
-2023-06-11 10:07:19 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:50.046000", "Open Price": "25657.60000000"}
+2023-06-13 08:57:17 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:49.587000", "Open Price": "25783.49000000"}
 
-2023-06-11 10:07:23 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:51.070000", "Open Price": "25658.53000000"}
+2023-06-13 08:57:21 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:50.268000", "Open Price": "25783.48000000"}
 
-2023-06-11 10:07:27 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:52.032000", "Open Price": "25662.57000000"}
+2023-06-13 08:57:25 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:50.820000", "Open Price": "25783.48000000"}
 
-2023-06-11 10:07:31 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:53.176000", "Open Price": "25662.63000000"}
+2023-06-13 08:57:29 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:53.494000", "Open Price": "25784.17000000"}
 
-2023-06-11 10:07:35 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:53.726000", "Open Price": "25665.19000000"}
+2023-06-13 08:57:33 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:55.860000", "Open Price": "25787.97000000"}
 
-2023-06-11 10:07:39 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:55.289000", "Open Price": "25665.18000000"}
+2023-06-13 08:57:37 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:56.281000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:07:43 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:56.229000", "Open Price": "25665.19000000"}
+2023-06-13 08:57:41 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:57.755000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:07:47 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:57.230000", "Open Price": "25665.19000000"}
+2023-06-13 08:57:45 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:58.720000", "Open Price": "25787.97000000"}
 
-2023-06-11 10:07:52 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:58.130000", "Open Price": "25665.19000000"}
+2023-06-13 08:57:49 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:56:59.619000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:07:56 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:06:59.109000", "Open Price": "25665.18000000"}
+2023-06-13 08:57:53 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:00.357000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:08:00 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:00.264000", "Open Price": "25665.19000000"}
+2023-06-13 08:57:57 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:01.546000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:08:04 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:00.831000", "Open Price": "25665.18000000"}
+2023-06-13 08:58:01 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:02.121000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:08:08 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:02.052000", "Open Price": "25665.18000000"}
+2023-06-13 08:58:05 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:03.878000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:08:12 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:03.185000", "Open Price": "25665.19000000"}
+2023-06-13 08:58:09 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:04.862000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:08:16 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:04.214000", "Open Price": "25662.58000000"}
+2023-06-13 08:58:13 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:05.790000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:08:20 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:04.725000", "Open Price": "25661.18000000"}
+2023-06-13 08:58:17 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:06.777000", "Open Price": "25787.98000000"}
 
-2023-06-11 10:08:24 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:05.927000", "Open Price": "25661.18000000"}
+2023-06-13 08:58:21 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:07.663000", "Open Price": "25788.67000000"}
 
-2023-06-11 10:08:28 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:06.796000", "Open Price": "25661.18000000"}
+2023-06-13 08:58:25 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:08.578000", "Open Price": "25788.67000000"}
 
-2023-06-11 10:08:32 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:08.633000", "Open Price": "25660.83000000"}
+2023-06-13 08:58:29 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:10.020000", "Open Price": "25788.67000000"}
 
-2023-06-11 10:08:36 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:08.857000", "Open Price": "25660.82000000"}
+2023-06-13 08:58:34 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:11.158000", "Open Price": "25788.67000000"}
 
-2023-06-11 10:08:40 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:10.634000", "Open Price": "25659.53000000"}
+2023-06-13 08:58:38 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:11.974000", "Open Price": "25788.68000000"}
 
-2023-06-11 10:08:44 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:11.394000", "Open Price": "25659.52000000"}
+2023-06-13 08:58:42 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:12.929000", "Open Price": "25788.67000000"}
 
-2023-06-11 10:08:48 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:12.643000", "Open Price": "25659.52000000"}
+2023-06-13 08:58:46 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:13.703000", "Open Price": "25786.69000000"}
 
-2023-06-11 10:08:52 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:12.779000", "Open Price": "25659.53000000"}
+2023-06-13 08:58:50 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:14.943000", "Open Price": "25785.55000000"}
 
-2023-06-11 10:08:56 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:14.340000", "Open Price": "25659.42000000"}
+2023-06-13 08:58:54 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:15.982000", "Open Price": "25785.54000000"}
 
-2023-06-11 10:09:00 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:15.662000", "Open Price": "25658.95000000"}
+2023-06-13 08:58:58 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:16.986000", "Open Price": "25785.41000000"}
 
-2023-06-11 10:09:04 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:16.541000", "Open Price": "25658.17000000"}
+2023-06-13 08:59:02 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:17.816000", "Open Price": "25781.17000000"}
 
-2023-06-11 10:09:08 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:17.066000", "Open Price": "25658.17000000"}
+2023-06-13 08:59:06 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:18.936000", "Open Price": "25781.17000000"}
 
-2023-06-11 10:09:12 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:17.757000", "Open Price": "25658.17000000"}
+2023-06-13 08:59:10 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:19.994000", "Open Price": "25782.83000000"}
 
-2023-06-11 10:09:17 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:19.631000", "Open Price": "25658.18000000"}
+2023-06-13 08:59:14 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:20.917000", "Open Price": "25785.54000000"}
 
-2023-06-11 10:09:21 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:20.425000", "Open Price": "25658.17000000"}
+2023-06-13 08:59:18 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:21.497000", "Open Price": "25785.54000000"}
 
-2023-06-11 10:09:25 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:21.310000", "Open Price": "25658.17000000"}
+2023-06-13 08:59:22 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:22.970000", "Open Price": "25785.54000000"}
 
-2023-06-11 10:09:29 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:21.786000", "Open Price": "25658.17000000"}
+2023-06-13 08:59:26 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:23.990000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:09:33 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:22.867000", "Open Price": "25655.08000000"}
+2023-06-13 08:59:30 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:25", "Open Price": "25789.35000000"}
 
-2023-06-11 10:09:37 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:24.534000", "Open Price": "25655.01000000"}
+2023-06-13 08:59:34 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:25.852000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:09:41 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:25.719000", "Open Price": "25653.90000000"}
+2023-06-13 08:59:38 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:26.624000", "Open Price": "25789.34000000"}
 
-2023-06-11 10:09:45 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:26.607000", "Open Price": "25653.89000000"}
+2023-06-13 08:59:42 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:27.232000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:09:49 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:27.654000", "Open Price": "25653.89000000"}
+2023-06-13 08:59:46 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:29.209000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:09:53 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:28.594000", "Open Price": "25650.13000000"}
+2023-06-13 08:59:50 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:29.392000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:09:57 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:29.691000", "Open Price": "25650.14000000"}
+2023-06-13 08:59:54 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:31.122000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:01 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:30.692000", "Open Price": "25650.14000000"}
+2023-06-13 08:59:58 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:32.199000", "Open Price": "25789.34000000"}
 
-2023-06-11 10:10:05 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:31.298000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:02 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:33.180000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:09 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:32.498000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:06 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:34.094000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:13 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:32.983000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:10 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:35.232000", "Open Price": "25789.34000000"}
 
-2023-06-11 10:10:17 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:34.741000", "Open Price": "25650.14000000"}
+2023-06-13 09:00:14 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:36.249000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:21 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:35.611000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:18 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:37.303000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:25 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:36.752000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:22 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:38.120000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:29 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:37.652000", "Open Price": "25650.14000000"}
+2023-06-13 09:00:26 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:38.837000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:33 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:38.552000", "Open Price": "25650.14000000"}
+2023-06-13 09:00:30 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:40.123000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:37 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:39.552000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:34 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:40.870000", "Open Price": "25789.35000000"}
 
-2023-06-11 10:10:42 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:40.770000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:38 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:41.646000", "Open Price": "25791.12000000"}
 
-2023-06-11 10:10:46 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:41.729000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:42 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:43.089000", "Open Price": "25791.11000000"}
 
-2023-06-11 10:10:50 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:42.620000", "Open Price": "25650.13000000"}
+2023-06-13 09:00:46 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:43.598000", "Open Price": "25791.12000000"}
 
-2023-06-11 10:10:54 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:43.382000", "Open Price": "25650.14000000"}
+2023-06-13 09:00:50 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:45.091000", "Open Price": "25792.81000000"}
 
-2023-06-11 10:10:58 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:44.110000", "Open Price": "25650.00000000"}
+2023-06-13 09:00:54 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:45.998000", "Open Price": "25792.80000000"}
 
-2023-06-11 10:11:02 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:45.658000", "Open Price": "25650.00000000"}
+2023-06-13 09:00:58 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:47.265000", "Open Price": "25792.81000000"}
 
-2023-06-11 10:11:06 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:46.757000", "Open Price": "25650.01000000"}
+2023-06-13 09:01:02 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:48.245000", "Open Price": "25792.81000000"}
 
-2023-06-11 10:11:10 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:47.685000", "Open Price": "25650.00000000"}
+2023-06-13 09:01:06 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:49.254000", "Open Price": "25792.80000000"}
 
-2023-06-11 10:11:14 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:48.558000", "Open Price": "25650.01000000"}
+2023-06-13 09:01:10 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:51.056000", "Open Price": "25796.03000000"}
 
-2023-06-11 10:11:18 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:49.832000", "Open Price": "25645.78000000"}
+2023-06-13 09:01:14 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:52.685000", "Open Price": "25796.03000000"}
 
-2023-06-11 10:11:22 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:50.803000", "Open Price": "25645.79000000"}
+2023-06-13 09:01:18 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:53.585000", "Open Price": "25797.96000000"}
 
-2023-06-11 10:11:26 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:51.816000", "Open Price": "25645.79000000"}
+2023-06-13 09:01:22 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:54.455000", "Open Price": "25797.95000000"}
 
-2023-06-11 10:11:30 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:52.581000", "Open Price": "25645.78000000"}
+2023-06-13 09:01:26 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:55.907000", "Open Price": "25797.96000000"}
 
-2023-06-11 10:11:34 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-11 09:07:53.591000", "Open Price": "25645.79000000"}
+2023-06-13 09:01:30 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:56.877000", "Open Price": "25797.96000000"}
+
+2023-06-13 09:01:34 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:57.822000", "Open Price": "25797.95000000"}
+
+2023-06-13 09:01:38 Produced message on topic crypto-open-price1 with value of {"Time": "2023-06-13 07:57:58.098000", "Open Price": "25797.95000000"}
 

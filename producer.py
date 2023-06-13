@@ -46,18 +46,22 @@ def on_message(ws, message):
         timestamp = message['E'] / 1000
         timestamp = datetime.datetime.utcfromtimestamp(timestamp)
         print(f"Time: {timestamp}, Open Price: {message['o']}")
+
         data = {
             'Time': str(timestamp),
             'Open Price': message['o']
         }
         m=json.dumps(data)
         p.poll(1)
-        p.produce('crypto-open-price1', m.encode('utf-8'),callback=receipt)
+        p.produce('crypto-open-price1', m.encode('utf-8'), callback=receipt)
         p.flush()
         time.sleep(3)
+
+
 def on_error(ws, error):
     # Define how to handle WebSocket errors
     print("WebSocket error:", error)
+
 
 def on_close(ws, close_code, close_reason):
     # Define how to handle WebSocket connection closure
@@ -82,8 +86,6 @@ def close_websocket():
     if ws:
         print("Closing connection")
         ws.close()
-        global websocket_running
-        websocket_running = False
     else:
         print("Could not close connection")
 
@@ -99,8 +101,6 @@ def open_websocket():
                                 on_close=on_close,
                                 on_open=on_open)
     # Run the WebSocket connection
-    global websocket_running
-    websocket_running = True
     ws.run_forever()
 
 
@@ -111,8 +111,6 @@ def open_websocket():
 if __name__ == "__main__":
     global data
     global df
-    global websocket_running
-    websocket_running = True
     data = []
 
 
@@ -126,20 +124,4 @@ if __name__ == "__main__":
     timer_thread.start()
 
 
-
-    # fig, ax = plt.subplots()
-    # x=None
-    # y=None
-    # data = deque([(x, y)], maxlen=20)
-    # line, = plt.plot(*zip(*data), c='black')
-    # plt.ylabel("Open Price")
-    # plt.xlabel("Time since epoch")
-    #
-    # ani = animation.FuncAnimation(fig, animate, interval=100)
-    # plt.show()
-
-    while websocket_running:
-        pass
-
-    print("Finished")
 
